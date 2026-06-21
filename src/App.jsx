@@ -88,7 +88,7 @@ export default function App() {
   ];
 
   return (
-    <div className="min-h-screen bg-[#ebb76a] text-stone-800" style={{ fontFamily: "'Inter', -apple-system, BlinkMacSystemFont, sans-serif" }}>
+    <div className="min-h-screen bg-[#c7a167] text-stone-800" style={{ fontFamily: "'Inter', -apple-system, BlinkMacSystemFont, sans-serif" }}>
 
       {/* Subtle warm grain overlay */}
       <div className="pointer-events-none fixed inset-0 opacity-[0.03]" style={{ backgroundImage: "url(\"data:image/svg+xml,%3Csvg viewBox='0 0 256 256' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='noise'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.9' numOctaves='4' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23noise)' opacity='1'/%3E%3C/svg%3E\")", backgroundRepeat: "repeat", backgroundSize: "128px" }} />
@@ -102,7 +102,7 @@ export default function App() {
           href="https://digitalheroesco.com"
           target="_blank"
           rel="noopener noreferrer"
-          className="text-[12px] text-stone-400 hover:text-amber-700 transition-colors duration-200 font-medium"
+          className="text-[12px] text-[#806640] hover:text-amber-700 transition-colors duration-200 font-medium"
         >
           digitalheroesco.com ↗
         </a>
@@ -121,7 +121,7 @@ export default function App() {
           Meta Tag Generator.
         </h1>
 
-        <p className="text-[15px] text-stone-400 leading-relaxed max-w-[540px]">
+        <p className="text-[15px] text-[#806640] leading-relaxed max-w-[540px]">
           Generate SEO-ready meta tags instantly — Primary, Open Graph, and
           Twitter Card. Free, no signup needed.
         </p>
@@ -196,13 +196,13 @@ export default function App() {
 
         {/* Footer */}
         <div className="border-t border-stone-200/60 pt-8 pb-12 flex flex-col items-center gap-4">
-          <p className="text-[12px] text-stone-400">
+          <p className="text-[12px] text-stone-500">
             Built by{" "}
-            <span className="text-stone-600 font-semibold">Roshan Singh</span>{" "}
+            <span className="text-[#806640] font-semibold">Roshan Singh</span>{" "}
             ·{" "}
             <a
               href="mailto:roshansingh200477@gmail.com"
-              className="text-stone-500 hover:text-amber-600 transition-colors duration-200"
+              className="text-[#806640] hover:text-amber-600 transition-colors duration-200 font-bold"
             >
               roshansingh200477@gmail.com
             </a>
